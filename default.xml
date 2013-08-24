@@ -21,13 +21,13 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="bionic" remote="baked" revision="jb-4.2" groups="pdk" />
-  <project path="bootable/bootloader/legacy" name="bootable_bootloader_legacy" remote="baked" revision="jb-4.2" />
-  <project path="bootable/diskinstaller" name="bootable_diskinstaller" remote="baked" revision="jb-4.2" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="baked" revision="jb-4.2" groups="pdk" />
-  <project path="cts" name="cts" remote="baked" revision="jb-4.2" groups="cts" />
-  <project path="dalvik" name="dalvik" remote="baked" revision="jb-4.2"/>
-  <project path="development" name="development" remote="baked" revision="jb-4.2" />
+  <project path="bionic" name="bionic" remote="baked" revision="jb-4.3" groups="pdk" />
+  <project path="bootable/bootloader/legacy" name="bootable_bootloader_legacy" remote="baked" revision="jb-4.3" />
+  <project path="bootable/diskinstaller" name="bootable_diskinstaller" remote="baked" revision="jb-4.3" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="baked" revision="jb-4.3" groups="pdk" />
+  <project path="cts" name="cts" remote="baked" revision="jb-4.3" groups="cts" />
+  <project path="dalvik" name="dalvik" remote="baked" revision="jb-4.3"/>
+  <project path="development" name="development" remote="baked" revision="jb-4.3" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="baked" revision="jb-4.2" />
   <project path="device/asus/tf201" name="device_asus_tf201" remote="baked" revision="jb-4.2" />
   <project path="device/asus/tf300t" name="device_asus_tf300t" remote="baked" revision="jb-4.2" />
@@ -69,7 +69,7 @@
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="baked" revision="jb-4.2" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="baked" revision="jb-4.2" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="baked" revision="jb-4.2" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="baked" revision="jb-4.2" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="baked" revision="jb-4.3" />
   <project path="device/samsung/mesmerizemtd" name="device_samsung_mesmerizemtd" remote="baked" revision="jb-4.2" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="baked" revision="jb-4.2" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="baked" revision="jb-4.2" />
@@ -91,9 +91,9 @@
   <project path="device/samsung/vibrantmtd" name="device_samsung_vibrantmtd" remote="baked" revision="jb-4.2" />
   <project path="device/ti/panda" name="device/ti/panda"  groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-  <project path="external/aac" name="external_aac" remote="baked" revision="jb-4.2" groups="pdk" />
+  <project path="external/aac" name="external_aac" remote="baked" revision="jb-4.3" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="external_android-mock" remote="baked" revision="jb-4.2" />
+  <project path="external/android-mock" name="external_android-mock" remote="baked" revision="jb-4.3" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -101,26 +101,26 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
-  <project path="external/bash" name="external_bash" remote="baked" revision="jb-4.2" />
+  <project path="external/bash" name="external_bash" remote="baked" revision="jb-4.3" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="baked" revision="jb-4.2" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="baked" revision="jb-4.3" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="external_busybox" remote="baked" revision="jb-4.2" />
+  <project path="external/busybox" name="external_busybox" remote="baked" revision="jb-4.3" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="external_chromium" remote="baked" revision="jb-4.2" />
+  <project path="external/chromium" name="external_chromium" remote="baked" revision="jb-4.3" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/clang" name="external_clang" remote="baked" revision="jb-4.2" groups="pdk" />
+  <project path="external/clang" name="external_clang" remote="baked" revision="jb-4.3" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="external_dnsmasq" remote="baked" revision="jb-4.2" groups="pdk" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="baked" revision="jb-4.3" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="baked" revision="jb-4.2" groups="pdk" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="baked" revision="jb-4.3" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -134,7 +134,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
-  <project path="external/freetype" name="external_freetype" remote="baked" revision="jb-4.2" groups="pdk" />
+  <project path="external/freetype" name="external_freetype" remote="baked" revision="jb-4.3" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/fuse" name="external_fuse" remote="baked" revision="jb-4.2" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
@@ -144,7 +144,7 @@
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="external_guava" remote="baked" revision="jb-4.2" />
+  <project path="external/guava" name="external_guava" remote="baked" revision="jb-4.3" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
@@ -161,19 +161,19 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="external_jpeg" remote="baked" revision="jb-4.2" groups="pdk" />
+  <project path="external/jpeg" name="external_jpeg" remote="baked" revision="jb-4.3" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="baked" revision="jb-4.2" />
+  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="baked" revision="jb-4.3" />
   <project path="external/koush/Widgets" name="external_koush_Widgets" remote="baked" revision="jb-4.2" />
-  <project path="external/libcap-ng" name="external_libcap-ng" remote="baked" revision="jb-4.2" />
+  <project path="external/libcap-ng" name="external_libcap-ng" remote="baked" revision="jb-4.3" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libncurses" name="external_libncurses" remote="baked" revision="jb-4.2" />
+  <project path="external/libncurses" name="external_libncurses" remote="baked" revision="jb-4.3" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="baked" revision="jb-4.2" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
@@ -269,9 +269,9 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="external_yaffs2" remote="baked" revision="jb-4.2" groups="pdk" />
-  <project path="external/zlib" name="external_zlib" remote="baked" revision="jb-4.2" groups="pdk" />
+  <project path="external/zlib" name="external_zlib" remote="baked" revision="jb-4.3" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="baked" revision="jb-4.2" groups="pdk" />
+  <project path="frameworks/av" name="frameworks_av" remote="baked" revision="jb-4.3" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="baked" revision="jb-4.2" />
   <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="baked" revision="jb-4.2" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -448,9 +448,9 @@
 
   <project path="vendor/akm" name="vendor_akm" remote="baked" revision="jb-4.2" />
   <project path="vendor/asus" name="vendor_asus" remote="baked" revision="jb-4.2" />
-  <project path="vendor/audience" name="vendor_audience" remote="baked" revision="jb-4.2" />
+  <project path="vendor/audience" name="vendor_audience" remote="baked" revision="jb-4.3" />
   <project path="vendor/baked" name="vendor_baked" remote="baked" revision="jb-4.2" />
-  <project path="vendor/baked/bot" name="pseudo_buildbot" remote="baked" revision="jb-4.2" />
+  <project path="vendor/baked/bot" name="pseudo_buildbot" remote="baked" revision="jb-4.3" />
   <project path="vendor/broadcom" name="vendor_broadcom" remote="baked" revision="jb-4.2" />
   <project path="vendor/elan" name="vendor_elan" remote="baked" revision="jb-4.2" />
   <project path="vendor/htc" name="vendor_htc" remote="baked" revision="jb-4.2" />
